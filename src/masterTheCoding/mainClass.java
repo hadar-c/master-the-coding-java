@@ -1,5 +1,5 @@
-package masterTheCoding; // Import the Scanner class
-import java.util.Scanner;
+package masterTheCoding;
+import java.util.Scanner; // Import the Scanner class
 
 public class mainClass {
 	
@@ -11,8 +11,8 @@ public class mainClass {
 		
 		while (running) {
 			System.out.println("Actions menu:");
-			System.out.println("0. Exit\n" +
-					"1. Reverse string");
+			System.out.println("   0. Exit\n" +
+					"   1. Reverse string");
 		    System.out.print("\nChoose action:");
 
 		    int choice = sc.nextInt();  // Read user input
